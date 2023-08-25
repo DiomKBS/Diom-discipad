@@ -2787,7 +2787,7 @@
     (property "Value" "AVR-ISP-6" (id 1) (at 244.983 128.143 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 245.745 127 90)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (id 2) (at 245.745 127 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 219.71 142.24 0)
@@ -3548,7 +3548,7 @@
       (reference "F1") (unit 1) (value "500mA") (footprint "keyboard_parts:polyfuse_5.1mm")
     )
     (path "/00000000-0000-0000-0000-00005d2c325d"
-      (reference "J1") (unit 1) (value "AVR-ISP-6") (footprint "")
+      (reference "J1") (unit 1) (value "AVR-ISP-6") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005d2c3a43"
       (reference "LED1") (unit 1) (value "POWER") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
