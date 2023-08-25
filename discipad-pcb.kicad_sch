@@ -2707,8 +2707,8 @@
     (uuid 00000000-0000-0000-0000-00005d2c0447)
     (property "Reference" "" (id 0) (at 71.755 114.808 0))
     (property "Value" "BOOT" (id 1) (at 71.755 117.1194 0))
-    (property "Footprint" "" (id 2) (at 71.755 121.285 0)
-      (effects (font (size 1.524 1.524)))
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem" (id 2) (at 71.755 121.285 0)
+      (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 71.755 121.285 0)
       (effects (font (size 1.524 1.524)))
@@ -3263,7 +3263,7 @@
     (uuid 00000000-0000-0000-0000-00005d2fcd08)
     (property "Reference" "" (id 0) (at 71.755 133.858 0))
     (property "Value" "RESET" (id 1) (at 71.755 136.1694 0))
-    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (id 2) (at 71.755 140.335 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem" (id 2) (at 71.755 140.335 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 71.755 140.335 0)
@@ -3470,7 +3470,7 @@
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005d2c0447"
-      (reference "BOOT1") (unit 1) (value "BOOT") (footprint "")
+      (reference "BOOT1") (unit 1) (value "BOOT") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem")
     )
     (path "/00000000-0000-0000-0000-00005d2f4a78"
       (reference "C1") (unit 1) (value "22p") (footprint "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm")
@@ -3575,7 +3575,7 @@
       (reference "R7") (unit 1) (value "1.5K") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005d2fcd08"
-      (reference "RESET1") (unit 1) (value "RESET") (footprint "Button_Switch_THT:SW_PUSH_6mm")
+      (reference "RESET1") (unit 1) (value "RESET") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem")
     )
     (path "/00000000-0000-0000-0000-00005bdaa9a5"
       (reference "SW0") (unit 1) (value "KEYSW") (footprint "Button_Switch_Keyboard:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN")
