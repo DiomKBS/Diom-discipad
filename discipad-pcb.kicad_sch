@@ -2936,7 +2936,7 @@
     (property "Value" "USB_C_GCT_USB4085" (id 1) (at 116.3574 129.3876 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Type-C:USB_C_GCT_USB4085" (id 2) (at 120.65 153.035 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085" (id 2) (at 120.65 153.035 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 120.65 153.035 0)
@@ -3632,7 +3632,7 @@
       (reference "U1") (unit 1) (value "ATmega328P-PU") (footprint "Package_DIP:DIP-28_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00005d2c4195"
-      (reference "USB1") (unit 1) (value "USB_C_GCT_USB4085") (footprint "Type-C:USB_C_GCT_USB4085")
+      (reference "USB1") (unit 1) (value "USB_C_GCT_USB4085") (footprint "Connector_USB:USB_C_Receptacle_GCT_USB4085")
     )
     (path "/00000000-0000-0000-0000-00005d2efb9f"
       (reference "Y1") (unit 1) (value "Crystal") (footprint "Crystal:Crystal_HC49-4H_Vertical")
