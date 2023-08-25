@@ -2986,7 +2986,7 @@
     (property "Value" "500mA" (id 1) (at 136.3472 124.968 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "keyboard_parts:polyfuse_5.1mm" (id 2) (at 135.89 128.905 0)
+    (property "Footprint" "Fuse:Fuse_Littelfuse_395Series" (id 2) (at 135.89 128.905 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (id 3) (at 134.62 123.825 0)
@@ -3545,7 +3545,7 @@
       (reference "D19") (unit 1) (value "3.6V") (footprint "Diode_THT:D_DO-35_SOD27_P5.08mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005d2ccadb"
-      (reference "F1") (unit 1) (value "500mA") (footprint "keyboard_parts:polyfuse_5.1mm")
+      (reference "F1") (unit 1) (value "500mA") (footprint "Fuse:Fuse_Littelfuse_395Series")
     )
     (path "/00000000-0000-0000-0000-00005d2c325d"
       (reference "J1") (unit 1) (value "AVR-ISP-6") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
